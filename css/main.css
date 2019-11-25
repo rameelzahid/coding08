@@ -1,0 +1,390 @@
+/*
+Name: Rameel Zahid
+Assignment: 08
+Purpose: This is the css to give the design for the page and organization of images.
+ */
+
+
+
+	.input-group {
+		margin: auto;
+	}
+
+	.frm-submit {
+		margin: auto;
+	}
+	input[type=submit] {
+	  width: 100%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  background-color: lightblue;
+	  color: indigo;
+	  padding: 14px 20px;
+	  margin: auto;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+	
+	input[type=text] {
+	  width: 100%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type=email] {
+	  width: 100%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	textarea[name=message] {
+	  width: 100%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	
+	h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+	}
+	
+	p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	font-size: 100%;
+	}
+	
+	nav {
+	  list-style-type: none;
+	  margin: 0;
+	  display: block;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  font-family:Impact, Charcoal, sans-serif;
+	}
+	
+	
+	form {
+		text-align:center;
+	}
+	
+	.image-box {
+    width:100%;
+    float:left;
+	}
+
+	.image-box img{
+		width: 100%;
+				height:auto;
+
+	}
+	
+	em{
+	font-family:Impact, Charcoal, sans-serif;
+	color:teal;
+	text-align:center;
+}
+
+	.copyright {
+
+		text-align:center;
+	}
+	
+
+	
+	.image-square {
+		
+		height: 200px;
+		width: 50%
+	}
+	
+	.center {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		
+	}
+	
+	.btop{
+	font-family:Impact, Charcoal, sans-serif;
+	color:maroon;
+	text-align:center;
+	}
+		
+			
+	
+	
+/*this is for tablet*/
+@media (min-width: 640px) and (max-width: 1200px) {
+
+	.input-group {
+		margin: auto;
+	}
+
+	.frm-submit {
+		margin: auto;
+	}
+	input[type=submit] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  background-color: lightblue;
+	  color: indigo;
+	  padding: 14px 20px;
+	  margin: auto;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+
+	}
+	
+	input[type=text] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type=email] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	textarea[name=message] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	
+	h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+	}
+	
+	p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	font-size: 100%;
+	}
+	
+	nav {
+	  list-style-type: none;
+	  margin: 0;
+	  display: block;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  font-family:Impact, Charcoal, sans-serif;
+	}
+	
+	
+	form {
+		text-align:center;
+	}
+	
+	.image-box {
+        width:33.3333333%;
+		height:auto;
+    }
+	
+	em{
+	font-family:Impact, Charcoal, sans-serif;
+	color:teal;
+	text-align:center;
+}
+
+	.copyright {
+
+		text-align:center;
+	}
+	
+
+	
+	.image-square {
+		
+		height: 200px;
+		width: 50%
+	}
+	
+	.center {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	.btop{
+	font-family:Impact, Charcoal, sans-serif;
+	color:maroon;
+	text-align:center;
+	}
+	
+
+}	
+
+/*this is for desktop*/
+@media (min-width: 1200px) {
+	
+	.input-group {
+		margin: auto;
+	}
+
+	.frm-submit {
+		margin: auto;
+	}
+	input[type=submit] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  background-color: lightblue;
+	  color: indigo;
+	  padding: 14px 20px;
+	  margin: auto;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+	
+	input[type=text] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type=email] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	textarea[name=message] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: auto;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	
+	h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+	}
+	
+	p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	font-size: 100%;
+	}
+	
+	nav {
+	  list-style-type: none;
+	  margin: 0;
+	  display: block;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  font-family:Impact, Charcoal, sans-serif;
+	}
+	
+	form {
+		text-align:center;
+	}
+	
+	.image-box {
+        width:33.333333%;
+		height:auto;
+
+    }
+	
+	em{
+	font-family:Impact, Charcoal, sans-serif;
+	color:teal;
+	text-align:center;
+}
+
+	.copyright {
+
+		text-align:center;
+	}
+
+	
+	.image-square {
+		
+		height: 200px;
+		width: 50%
+	}
+	
+	.center {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	.btop{
+	font-family:Impact, Charcoal, sans-serif;
+	color:maroon;
+	text-align:center;
+	}
+	
+}
